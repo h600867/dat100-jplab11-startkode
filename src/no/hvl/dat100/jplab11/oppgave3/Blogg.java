@@ -35,7 +35,7 @@ public class Blogg {
 	public int finnInnlegg(Innlegg innlegg) {
 
 		int indeks = -1;
-		for(int i = 0; i < innleggtabell.length; i++) {
+		for(int i = 0; i < nesteledig; i++) {
 			
 			if(innleggtabell[i].erLik(innlegg)) {
 				
